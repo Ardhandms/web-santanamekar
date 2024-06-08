@@ -6,8 +6,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        Projek dan Sertifikat {""}
-        <span className="text-blue-600">yang sudah kuraih</span>
+        My Certificate and Project {""}
+        <span className="text-blue-600">i've Achive</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
