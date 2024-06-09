@@ -24,7 +24,7 @@ const Approuch = () => {
         </Card>
         <Card
           title="Basic Cybersecurity"
-          icon={<AceternityIcon order="Skill 1" />}
+          icon={<AceternityIcon order="Skill 2" />}
           description="Memiliki pengetahuan dasar tentang keamanan siber, termasuk pengenalan terhadap ancaman siber, praktik terbaik dalam menjaga keamanan data, dan penggunaan alat-alat dasar untuk melindungi sistem dari serangan."
         >
           <CanvasRevealEffect
