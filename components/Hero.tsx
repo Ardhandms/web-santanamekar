@@ -35,14 +35,14 @@ const Hero = () => {
             Network Engineer and Cybersecurity Enthusiast.
           </p>
 
-          <a href="#projects" className="mt-4">
+          <a href="#projects" className="mt-2">
             <MagicButton
               title="Show My Project"
               icon={<FaLocationArrow />}
               position="right"
             />
           </a>
-          <a href="#contact" className="mt-4">
+          <a href="#contact" className="mt-2">
             <MagicButton
               title="Contact Person"
               icon={<FaLocationArrow />}
