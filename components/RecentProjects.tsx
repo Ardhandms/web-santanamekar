@@ -7,11 +7,9 @@ const RecentProjects = () => {
     <div className="py-20" id="projects">
       <h1 className="heading">
         My Certificate and Project {""}
-        <span className="text-blue-600">i've Achive</span>
+        <span className="text-blue-600">i&apos;ve Achive</span>
       </h1>
-      <p className="text-center md:tracking-wider mb-4 text-sm md:text-sm lg:text-sm">
-        (And btw, klik "open in new page" untuk melihat sertifikat nya)
-      </p>
+
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map(({ id, title, des, img, link }) => (
           <div
