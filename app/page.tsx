@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Approuch from "@/components/Approuch";
+
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -16,7 +16,7 @@ export default function Home() {
         <About />
         <Experience />
         <RecentProjects />
-        <Approuch />
+
         <Footer />
       </div>
     </main>
