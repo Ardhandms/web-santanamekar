@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#hero" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
@@ -83,7 +84,7 @@ export const projects = [
     des: "Passing the exam Certified Network Security Practitioner (CNSP) Certified Network Security Practitioner (CNSP) with Merit",
     img: "/Cnsp.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "/Cnsp.png",
   },
   {
     id: 3,
@@ -91,7 +92,7 @@ export const projects = [
     des: " Has Completed the SOC Analyst Course and showing an understanding of its course module and requirement.",
     img: "/Soc.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    link: "/Soc.png",
   },
   {
     id: 4,
@@ -99,7 +100,7 @@ export const projects = [
     des: " HAS SUCCESSFULLY ATTENDED THE COURSE Red Hat System Administration II (RH134)",
     img: "/Rh2.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    link: "/Rh2.png",
   },
 ];
 

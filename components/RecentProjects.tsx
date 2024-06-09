@@ -9,19 +9,25 @@ const RecentProjects = () => {
         My Certificate and Project {""}
         <span className="text-blue-600">i've Achive</span>
       </h1>
+      <p className="text-center md:tracking-wider mb-4 text-sm md:text-sm lg:text-sm">
+        (And btw, klik "open in new page" untuk melihat sertifikat nya)
+      </p>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map(({ id, title, des, img, iconLists, link }) => (
+        {projects.map(({ id, title, des, img, link }) => (
           <div
             key={id}
             className="lg:min-h-[32.5rem] h-[25rem] flex items-cemter justify-center sm:w-96 w-[80vw]"
           >
             <PinContainer title={title} href={link}>
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[40vh] lg:h-[50vh] mb-10">
+              <a
+                href={link}
+                className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[40vh] lg:h-[55vh] mb-10"
+              >
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#12162d]">
                   <img src="/bg.png" alt="bg-img" />
                 </div>
                 <img src={img} alt={title} className="z-10 absolute bottom-0" />
-              </div>
+              </a>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
               </h1>
