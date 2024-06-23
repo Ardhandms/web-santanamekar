@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Approuch from "@/components/Approuch";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
+import { GlobeDemo } from "@/components/GlobeDemo";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
@@ -17,6 +18,7 @@ export default function Home() {
         <Experience />
         <RecentProjects />
         <Approuch />
+        <GlobeDemo />
         <Footer />
       </div>
     </main>
