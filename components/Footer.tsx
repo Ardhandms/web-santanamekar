@@ -27,6 +27,9 @@ const Footer = () => {
             <img src="/linkedin.png" />
           </a>
         </div>
+        <p className="text-white-200 md:mt-10 my-5 text-center">
+          Oh ya kalo ada bug bisa laporkan aja ke contact person diatas;{")"}
+        </p>
       </div>
 
       <div className="flex mt-5 md:flex-row flex-col justify-between md:gap-3 gap-6 ">
