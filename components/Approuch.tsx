@@ -8,35 +8,23 @@ const Approuch = () => {
   return (
     <section className="w-full py-10">
       <h1 className="heading">
-        My <span className="text-blue-500">Skill</span>
+        Ciri Khas <span className="text-blue-500">Desa Santanamekar</span>
       </h1>
       <div className="my-12 flex flex-col lg:flex-row items-center justify-center gap-8">
-        <Card
-          title="Basic Network Engineer"
-          icon={<AceternityIcon order="Skill 1" />}
-          description="Memiliki kemampuan dalam merancang, mengimplementasikan, dan memelihara jaringan komputer. Familiar dengan konsep dasar protokol jaringan, manajemen perangkat jaringan, dan troubleshooting."
-        >
+        <Card title="-" icon={<AceternityIcon order="-" />} description="-">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-sky-600"
             colors={[[125, 211, 252]]}
           />
         </Card>
-        <Card
-          title="Basic Cybersecurity"
-          icon={<AceternityIcon order="Skill 2" />}
-          description="Memiliki pengetahuan dasar tentang keamanan siber, termasuk pengenalan terhadap ancaman siber, praktik terbaik dalam menjaga keamanan data, dan penggunaan alat-alat dasar untuk melindungi sistem dari serangan."
-        >
+        <Card title="-" icon={<AceternityIcon order="-" />} description="-">
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
         </Card>
-        <Card
-          title="Basic Frontend Web Developer"
-          icon={<AceternityIcon order="Skill 3" />}
-          description="Memiliki pengetahuan dalam membangun antarmuka web yang responsif dan user-friendly menggunakan HTML, CSS, dan JavaScript. Memahami dasar-dasar framework frontend seperti React dan memiliki kemampuan untuk menciptakan pengalaman pengguna yang menarik."
-        >
+        <Card title="-" icon={<AceternityIcon order="-" />} description="-">
           <CanvasRevealEffect
             animationSpeed={3}
             containerClassName="bg-black"

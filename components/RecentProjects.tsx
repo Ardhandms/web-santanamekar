@@ -6,8 +6,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        My Certificate and Project {""}
-        <span className="text-blue-600">i&apos;ve Achive</span>
+        Spot Lokasi {""}
+        <span className="text-blue-600">Desa Santanamekar</span>
       </h1>
 
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
