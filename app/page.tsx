@@ -1,9 +1,9 @@
 import About from "@/components/About";
-import Approuch from "@/components/Approuch";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import RecentProjects from "@/components/RecentProjects";
+import SpotDesa from "@/components/SpotDesa";
 import { FloatingNav } from "@/components/ui/FloatingNav";
+import Umkm from "@/components/Umkm";
 import { navItems } from "@/data";
 
 export default function Home() {
@@ -13,8 +13,8 @@ export default function Home() {
         <FloatingNav navItems={navItems} />
         <Hero />
         <About />
-        <RecentProjects />
-        <Approuch />
+        <Umkm />
+        <SpotDesa />
         <Footer />
       </div>
     </main>
