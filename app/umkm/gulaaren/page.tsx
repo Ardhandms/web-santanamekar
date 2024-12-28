@@ -3,60 +3,77 @@
 import { Spotlight } from "@/components/ui/Spotlight";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Page() {
-  // Changed from 'page' to 'Page'
   // State untuk mengontrol gambar yang aktif
   const [activeImage, setActiveImage] = useState(0);
 
   // Daftar gambar
   const images = [
-    { src: "/gula.jpg", alt: "Gula Aren" },
-    { src: "/gula2.jpg", alt: "Proses Pembuatan Gula Aren" },
+    { src: "/gula.jpg", alt: "Komoditas Puyuh" },
+    { src: "/gula2.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
     // Tambahkan gambar lainnya di sini
   ];
 
   // Fungsi untuk mengganti gambar
   const nextImage = () => {
-    setActiveImage((prev) => (prev + 1) % images.length); // Loop kembali ke gambar pertama
+    setActiveImage((prev) => (prev + 1) % images.length); // Looping ke gambar pertama setelah gambar terakhir
   };
 
   const prevImage = () => {
-    setActiveImage((prev) => (prev - 1 + images.length) % images.length); // Loop ke gambar terakhir
+    setActiveImage((prev) => (prev - 1 + images.length) % images.length); // Loop ke gambar terakhir setelah gambar pertama
   };
+
+  // Mengatur interval untuk mengganti gambar setiap 3 detik
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      nextImage();
+    }, 3000); // 3000 ms = 3 detik
+
+    // Bersihkan interval saat komponen di-unmount
+    return () => clearInterval(intervalId);
+  }, []);
 
   return (
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
-      <div className="pb-20 pt-28 mb-24" id="hero">
+      <div className="pb-20 pt-16 mb-24" id="gulaaren">
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10">
-          UMKM Peternak Puyuh{" "}
+          UMKM Gula Aren{" "}
           <span className="text-yellow-500">Desa Santanamekar</span>
         </h1>
         <div className="relative w-full max-w-3xl mx-auto rounded-xl shadow-lg overflow-hidden flex items-center justify-center mt-8">
-          <div className="w-full flex justify-center">
-            <div className="transition-all duration-500 ease-in-out transform">
-              <Image
-                src={images[activeImage].src}
-                alt={images[activeImage].alt}
-                width={160}
-                height={160}
-                className="rounded-xl shadow-xl mx-auto object-cover"
-              />
-            </div>
+          {/* Slider Container */}
+          <div
+            className="slider-container"
+            style={{
+              display: "flex",
+              transition: "transform 0.5s ease-in-out",
+              transform: `translateX(-${activeImage * 100}%)`, // Geser slider
+            }}
+          >
+            {images.map((image, index) => (
+              <div
+                key={index}
+                className="slide"
+                style={{ flexShrink: 0, width: "100%" }}
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={180} // Ukuran gambar yang lebih kecil
+                  height={180} // Ukuran gambar yang lebih kecil
+                  className="rounded-xl shadow-xl mx-auto object-cover"
+                  style={{
+                    objectFit: "cover", // Memastikan gambar ter-crop sesuai ukuran container
+                  }}
+                />
+              </div>
+            ))}
           </div>
 
-          <div className="absolute right-0 top-1/2 transform -translate-y-1/2 p-2">
-            <Image
-              src={images[(activeImage + 1) % images.length].src}
-              alt={images[(activeImage + 1) % images.length].alt}
-              width={80}
-              height={40}
-              className="rounded-lg shadow-md opacity-70 hover:opacity-100 transition-opacity duration-300 ease-in-out"
-            />
-          </div>
-
-          {/* Tombol Navigasi dengan Ukuran Lebih Kecil */}
+          {/* Tombol Navigasi */}
           <button
             onClick={prevImage}
             className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black text-white w-8 h-8 rounded-full shadow-md hover:bg-yellow-500 transition duration-300 ease-in-out flex justify-center items-center"
@@ -106,7 +123,7 @@ function Page() {
             kualitasnya menjadikannya salah satu pilihan favorit konsumen yang
             peduli terhadap produk alami dan sehat.
           </p>
-          <div className="mt-6 text-center">
+          <div className="mt-12 text-center">
             <Link href="/ ">
               <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
                 ← Kembali ke UMKM
@@ -119,4 +136,4 @@ function Page() {
   );
 }
 
-export default Page; // Changed from 'page' to 'Page'
+export default Page;

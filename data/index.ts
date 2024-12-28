@@ -87,14 +87,6 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/spot/gadobangkong",
   },
-  {
-    id: 3,
-    title: "Curug Badak",
-    des: "-",
-    img: "/curugBadak.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/spot/badak",
-  },
 ];
 
 export const testimonials = [
