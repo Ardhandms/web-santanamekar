@@ -5,7 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-function page() {
+function Page() {
+  // Changed from 'page' to 'Page'
   // State untuk mengontrol gambar yang aktif
   const [activeImage, setActiveImage] = useState(0);
 
@@ -13,7 +14,6 @@ function page() {
   const images = [
     { src: "/gula.jpg", alt: "Gula Aren" },
     { src: "/gula2.jpg", alt: "Proses Pembuatan Gula Aren" },
-    { src: "/gula3.jpg", alt: "Gula Aren" },
     // Tambahkan gambar lainnya di sini
   ];
 
@@ -119,4 +119,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page; // Changed from 'page' to 'Page'
