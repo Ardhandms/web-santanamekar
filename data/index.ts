@@ -77,7 +77,7 @@ export const projects = [
     des: "-",
     img: "/batuBlek.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "",
+    link: "/spot/batublek",
   },
   {
     id: 2,
@@ -85,7 +85,7 @@ export const projects = [
     des: "-",
     img: "/gadoBangkong.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
+    link: "/spot/gadobangkong",
   },
   {
     id: 3,
@@ -93,15 +93,7 @@ export const projects = [
     des: "-",
     img: "/curugBadak.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
-  },
-  {
-    id: 4,
-    title: "-",
-    des: "-",
-    img: "/",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "",
+    link: "/spot/badak",
   },
 ];
 

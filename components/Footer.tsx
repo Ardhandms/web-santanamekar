@@ -15,7 +15,7 @@ const Footer = () => {
 
         <div className="flex items-center justify-center md:gap-8 gap-8 my-5">
           <p className="md:text-base text-sm md:font-normal font-light">
-            Hubungi Kami:
+            Hubungi Kami (Contact Person) :
           </p>
 
           <a href="https://wa.me/">

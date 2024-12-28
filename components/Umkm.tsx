@@ -24,9 +24,9 @@ function Umkm() {
           <CardItem
             as="p"
             translateZ="60"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            Usaha Produksi gula aren daerah setempat.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
@@ -41,7 +41,7 @@ function Umkm() {
             <CardItem
               translateZ={20}
               as={Link}
-              href="/gulaaren"
+              href="/umkm/gulaaren"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
               Coba Lihat →
@@ -60,9 +60,9 @@ function Umkm() {
           <CardItem
             as="p"
             translateZ="60"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            Produksi makanan ringan dengan nama merk Japilus.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
@@ -77,8 +77,7 @@ function Umkm() {
             <CardItem
               translateZ={20}
               as={Link}
-              href="https://twitter.com/mannupaaji"
-              target="__blank"
+              href="/umkm/japilus"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
               Coba Lihat →
@@ -96,9 +95,10 @@ function Umkm() {
           <CardItem
             as="p"
             translateZ="60"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            Kerajinan tangan berbahan dasar bambu yang biasa digunakan untuk
+            wadah nasi ataupun bisa digunakan sebagai kantong.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
@@ -113,11 +113,10 @@ function Umkm() {
             <CardItem
               translateZ={20}
               as={Link}
-              href="https://twitter.com/mannupaaji"
-              target="__blank"
+              href="/umkm/pipiti"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Try now →
+              Coba Lihat →
             </CardItem>
           </div>
         </CardBody>
@@ -127,14 +126,15 @@ function Umkm() {
             translateZ="50"
             className="text-xl font-bold text-neutral-600 dark:text-white"
           >
-            Telur Puyuh
+            Ternak Puyuh
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300"
           >
-            Hover over this card to unleash the power of CSS perspective
+            Usaha di bidang peternakan khusus nya hewan puyuh yang dibudidayakan
+            untuk pemanfaatan telurnya.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image
@@ -149,11 +149,10 @@ function Umkm() {
             <CardItem
               translateZ={20}
               as={Link}
-              href="https://twitter.com/mannupaaji"
-              target="__blank"
+              href="/umkm/telurpuyuh"
               className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
             >
-              Try now →
+              Coba Lihat →
             </CardItem>
           </div>
         </CardBody>

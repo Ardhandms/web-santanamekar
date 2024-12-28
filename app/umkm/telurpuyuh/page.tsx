@@ -7,12 +7,12 @@ function page() {
   return (
     <div className="py-20 px-6 sm:px-20">
       <h1 className="text-3xl font-bold text-center mb-10">
-        UMKM Gula Aren{" "}
+        UMKM Peternak Puyuh{" "}
         <span className="text-yellow-500">Desa Santanamekar</span>
       </h1>
       <div className="max-w-4xl mx-auto">
         <Image
-          src="/gula2.jpg"
+          src="/"
           alt="Gula Aren"
           width={240}
           height={120}
@@ -52,18 +52,18 @@ function page() {
           peduli terhadap produk alami dan sehat.
         </p>
         <div className="mt-10 text-center">
-          <Link href="/">
+          <Link href="/ ">
             <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
               ← Kembali ke UMKM
             </button>
           </Link>
         </div>
         <Image
-          src="/gula.jpg"
+          src="/"
           alt="Proses Pembuatan Gula Aren"
           width={240}
           height={240}
-          className="rounded-xl shadow-lg mt-8 mx-auto" // Centered using mx-auto
+          className="rounded-xl shadow-lg mt-8 mx-auto"
         />
       </div>
     </div>
