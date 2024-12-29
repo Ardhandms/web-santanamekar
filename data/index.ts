@@ -103,7 +103,7 @@ export const testimonials = [
     name: "Ratu Mulia Zahra",
     designation:
       "Pendidikan Biologi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "/anggota/ratu.jpg",
+    src: "/anggota/Ratu.jpg",
   },
   {
     quote: "-",
