@@ -5,6 +5,7 @@ import SpotDesa from "@/components/SpotDesa";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import Umkm from "@/components/Umkm";
 import { navItems } from "@/data";
+import Biodata from "@/components/Biodata";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <About />
         <Umkm />
         <SpotDesa />
+        <Biodata />
         <Footer />
       </div>
     </main>

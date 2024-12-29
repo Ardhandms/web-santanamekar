@@ -91,32 +91,135 @@ export const projects = [
 
 export const testimonials = [
   {
-    img: "/Mtcna.png",
-    link: "/Mtcna.png",
+    quote: `Good Software, Like Wine, Takes Time 
+    <Joel Spolsky>`,
+    name: "Ardhan Dimas Nuryadin",
+    designation:
+      "Developer Website Desa Santanamekar - Informatika - Fakultas Teknik - Universitas Siliwangi",
+    src: "/anggota/ardhan.jpg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "",
+    name: "Ratu Mulia Zahra",
+    designation:
+      "Pendidikan Biologi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/ratu.jpg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "-",
+    name: "Alifia Tarijul Haq",
+    designation:
+      "Pendidikan Masyarakat - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/alifia.jpg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "",
+    name: "Nana Andyana",
+    designation: "Sistem Informasi - Fakultas Teknik - Universitas Siliwangi",
+    src: "/anggota/nana.jpg",
   },
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    quote: "-",
+    name: "Erena Wafa",
+    designation: "Gizi - Fakultas Ilmu Kesehatan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "",
+    name: "Siti Mutmainah",
+    designation:
+      "Pendidikan Fisika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/siti.jpg",
+  },
+  {
+    quote: "-",
+    name: "Saifi Maizan",
+    designation:
+      "Pendidikan Bahasa Indonesia - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/saifi.jpg",
+  },
+  {
+    quote: "-",
+    name: "Kefin Maulana Firmansyah",
+    designation:
+      "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/",
+  },
+  {
+    quote: "-",
+    name: "Hasna Amalia Heryanti",
+    designation:
+      "Pendidikan Matematika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/hasna.jpg",
+  },
+  {
+    quote: "-",
+    name: "Muhammad Amar Muzaki",
+    designation:
+      "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "-",
+    name: "Irfan Alif Rahman",
+    designation:
+      "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "-",
+    name: "Isma Fauziah",
+    designation:
+      "Ekonomi Syariah - Fakultas Agama Islam - Universitas Siliwangi",
+    src: "/anggota/isma.jpg",
+  },
+  {
+    quote: "-",
+    name: "Muhammad Nurrul Rahayu",
+    designation:
+      "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "-",
+    name: "Anggi",
+    designation:
+      "Pendidikan Fisika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/anggi.jpg",
+  },
+  {
+    quote: "-",
+    name: "Yessy Sri Anzani",
+    designation:
+      "Ilmu Politik - Fakultas Ilmu Sosial dan Ilmu Politik - Universitas Siliwangi",
+    src: "/anggota/yessy.png",
+  },
+  {
+    quote: "-",
+    name: "Salsabila Azzahrah",
+    designation:
+      "Pendidikan Geografi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "-",
+    name: "Syifa",
+    designation:
+      "Pendidikan Ekonomi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "-",
+    name: "Rahma",
+    designation:
+      "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/rahma.jpg",
+  },
+  {
+    quote: "-",
+    name: "Meilia Nur Azizah",
+    designation: "Sistem Informasi - Fakultas Teknik - Universitas Siliwangi",
+    src: "/anggota/meilia.jpg",
   },
 ];
 

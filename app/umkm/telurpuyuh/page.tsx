@@ -103,7 +103,7 @@ function Page() {
           />
         </div>
 
-        <div className="py-6 px-5 sm:px-20">
+        <div className="py-6 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
             Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
             berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh

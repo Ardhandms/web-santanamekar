@@ -11,10 +11,9 @@ function Page() {
 
   // Daftar gambar
   const images = [
-    { src: "/puyuh1.jpg", alt: "Komoditas Puyuh" },
-    { src: "/puyuh2.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/fotoUmkm/pipiti1.jpg", alt: "Komoditas Puyuh" },
+    { src: "/fotoUmkm/pipiti2.jpg", alt: "KKN 45 Puyuh" },
     { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
-    // Tambahkan gambar lainnya di sini
   ];
 
   // Fungsi untuk mengganti gambar
@@ -103,7 +102,7 @@ function Page() {
           />
         </div>
 
-        <div className="py-6 px-5 sm:px-20">
+        <div className="py-6 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
             Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
             berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh
@@ -129,6 +128,18 @@ function Page() {
                 ← Kembali ke UMKM
               </button>
             </Link>
+          </div>
+          {/* Video Section */}
+          <div className="mt-10 w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video Kerajinan Pipiti
+            </h2>
+            <div className="rounded-xl shadow-xl overflow-hidden">
+              <video controls className="w-full h-auto rounded-xl">
+                <source src="/fotoUmkm/videopipiti1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>

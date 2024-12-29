@@ -38,7 +38,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center gap-4 mt-4">
             <a href="#about" className="w-full sm:w-auto">
               <MagicButton
-                title="Tentang"
+                title="Santanamekar ?"
                 icon={<FaLocationArrow />}
                 position="right"
               />

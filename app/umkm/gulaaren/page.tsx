@@ -11,9 +11,9 @@ function Page() {
 
   // Daftar gambar
   const images = [
-    { src: "/gula.jpg", alt: "Komoditas Puyuh" },
     { src: "/gula2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/gula3.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/gula.jpg", alt: "Komoditas Puyuh" },
     // Tambahkan gambar lainnya di sini
   ];
 
@@ -62,18 +62,16 @@ function Page() {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  width={180} // Ukuran gambar yang lebih kecil
-                  height={180} // Ukuran gambar yang lebih kecil
+                  width={180}
+                  height={180}
                   className="rounded-xl shadow-xl mx-auto object-cover"
                   style={{
-                    objectFit: "cover", // Memastikan gambar ter-crop sesuai ukuran container
+                    objectFit: "cover",
                   }}
                 />
               </div>
             ))}
           </div>
-
-          {/* Tombol Navigasi */}
           <button
             onClick={prevImage}
             className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-black text-white w-8 h-8 rounded-full shadow-md hover:bg-yellow-500 transition duration-300 ease-in-out flex justify-center items-center"
@@ -103,28 +101,28 @@ function Page() {
           />
         </div>
 
-        <div className="py-6 px-5 sm:px-20">
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
+        <div className="py-2 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
+          <p className="text-base sm:text-m text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
             Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
             berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh
             UMKM lokal desa ini dibuat dengan bahan-bahan alami tanpa campuran
             bahan kimia, sehingga menghasilkan rasa yang autentik dan khas.
           </p>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
+          <p className="text-base sm:text-m text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
             Proses pembuatan gula aren melibatkan beberapa tahapan mulai dari
             penyadapan nira, pemasakan hingga menjadi gula cair atau gula cetak.
             UMKM di desa ini tidak hanya berkomitmen terhadap kualitas produk,
             tetapi juga mendukung pemberdayaan masyarakat lokal melalui
             pelibatan langsung dalam proses produksi.
           </p>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
+          <p className="text-base sm:text-m text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
             Produk gula aren dari Desa Santanamekar telah dipasarkan ke berbagai
             daerah, bahkan mulai merambah ke pasar nasional. Kelezatan dan
             kualitasnya menjadikannya salah satu pilihan favorit konsumen yang
             peduli terhadap produk alami dan sehat.
           </p>
           <div className="mt-12 text-center">
-            <Link href="/ ">
+            <Link href="/">
               <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
                 ← Kembali ke UMKM
               </button>
