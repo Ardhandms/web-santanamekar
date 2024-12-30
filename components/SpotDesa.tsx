@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 
 function SpotDesa() {
   return (
-    <div className="py-20" id="projects">
+    <div className="py-10" id="projects">
       <h1 className="heading">
         Spot Lokasi {""}
         <span className="text-yellow-500">Desa Santanamekar</span>

@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 function Biodata() {
   return (
-    <div>
+    <div className="py-10">
       <TextGenerateEffect
         className="text-center text-[40px] md:text-5xl lg:text-6xl py-8"
         words="Berkenalan dengan Anggota KKN Kelompok 45 Unsil"

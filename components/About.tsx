@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative bg-cover bg-center min-h-screen mb-20" // Ensure full height
+      className="relative bg-cover bg-center min-h-screen mb-20"
       style={{ backgroundImage: "url('/latarland2.png')" }}
     >
       <div className="relative flex items-center justify-center">

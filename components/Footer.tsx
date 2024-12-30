@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer className="w-full pt-12 pb-10" id="contact">
       <div className="flex flex-col item-center text-center">
         <h1 className="heading lg:max-w-[150vw] text-center">
           Terima Kasih telah mengunjungi{" "}
@@ -18,7 +18,7 @@ const Footer = () => {
             Hubungi Kami (Contact Person) :
           </p>
 
-          <a href="https://wa.me/">
+          <a href="https://wa.me/0881022972152">
             <img src="/whatsapp.png" alt="WhatsApp" />
           </a>
         </div>

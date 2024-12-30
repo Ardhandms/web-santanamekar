@@ -130,6 +130,25 @@ function Page() {
               </button>
             </Link>
           </div>
+
+          <div className="mt-10 w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video Curug Batu Blek
+            </h2>
+
+            <div className="relative rounded-xl shadow-xl overflow-hidden">
+              <div className="aspect-w-16 aspect-h-9">
+                <video
+                  controls
+                  className="w-full h-full object-contain rounded-xl"
+                  style={{ maxHeight: "90vh" }}
+                >
+                  <source src="/fotoSpot/videobatublek.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

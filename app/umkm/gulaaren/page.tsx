@@ -12,6 +12,8 @@ function Page() {
   // Daftar gambar
   const images = [
     { src: "/gula2.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/fotoUmkm/gula4.jpg", alt: "Komoditas Puyuh" },
+    { src: "/fotoUmkm/gula5.jpg", alt: "Komoditas Puyuh" },
     { src: "/gula3.jpg", alt: "KKN 45 Puyuh" },
     { src: "/gula.jpg", alt: "Komoditas Puyuh" },
     // Tambahkan gambar lainnya di sini
@@ -127,6 +129,21 @@ function Page() {
                 ← Kembali ke UMKM
               </button>
             </Link>
+          </div>
+          <div className="mt-10 w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video UMKM Gula Aren
+            </h2>
+            <div className="rounded-xl shadow-xl overflow-hidden">
+              <video
+                controls
+                className="w-full h-full object-contain rounded-xl"
+                style={{ maxHeight: "90vh" }}
+              >
+                <source src="/fotoUmkm/videogulaaren1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>

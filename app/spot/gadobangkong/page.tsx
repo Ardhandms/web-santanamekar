@@ -12,8 +12,8 @@ function Page() {
   // Daftar gambar
   const images = [
     { src: "/gadoBangkong.jpg", alt: "Komoditas Puyuh" },
-    { src: "/batuBlek2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
+    { src: "/fotoSpot/gadobangkong1.png", alt: "KKN 45 Puyuh" },
+    { src: "/fotoSpot/gadobangkong2.jpg", alt: "KKN 45 Puyuh" },
     // Tambahkan gambar lainnya di sini
   ];
 
@@ -129,6 +129,25 @@ function Page() {
                 ← Kembali ke UMKM
               </button>
             </Link>
+          </div>
+
+          <div className="relative rounded-xl shadow-xl overflow-hidden mt-8">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video Curug Gadobangkong
+            </h2>
+            <div className="aspect-w-16 aspect-h-9">
+              <video
+                controls
+                className="w-full h-full object-contain rounded-xl"
+                style={{ maxHeight: "90vh" }}
+              >
+                <source
+                  src="/fotoSpot/videogadobangkong.mp4"
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>

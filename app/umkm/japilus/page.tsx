@@ -130,6 +130,22 @@ function Page() {
               </button>
             </Link>
           </div>
+
+          <div className="mt-10 w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video Makanan Ringan Japilus
+            </h2>
+            <div className="rounded-xl shadow-xl overflow-hidden">
+              <video
+                controls
+                className="w-full h-full object-contain rounded-xl"
+                style={{ maxHeight: "90vh" }}
+              >
+                <source src="/fotoUmkm/videopipiti1.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </main>

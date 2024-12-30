@@ -6,24 +6,22 @@ import Link from "next/link";
 import React, { useState, useEffect } from "react";
 
 function Page() {
-  // State untuk mengontrol gambar yang aktif
   const [activeImage, setActiveImage] = useState(0);
 
-  // Daftar gambar
   const images = [
+    { src: "/fotoUmkm/puyuh1.png", alt: "KKN 45 Puyuh" },
     { src: "/puyuh1.jpg", alt: "Komoditas Puyuh" },
     { src: "/puyuh2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
     // Tambahkan gambar lainnya di sini
   ];
 
   // Fungsi untuk mengganti gambar
   const nextImage = () => {
-    setActiveImage((prev) => (prev + 1) % images.length); // Looping ke gambar pertama setelah gambar terakhir
+    setActiveImage((prev) => (prev + 1) % images.length);
   };
 
   const prevImage = () => {
-    setActiveImage((prev) => (prev - 1 + images.length) % images.length); // Loop ke gambar terakhir setelah gambar pertama
+    setActiveImage((prev) => (prev - 1 + images.length) % images.length);
   };
 
   // Mengatur interval untuk mengganti gambar setiap 3 detik
@@ -32,7 +30,6 @@ function Page() {
       nextImage();
     }, 3000); // 3000 ms = 3 detik
 
-    // Bersihkan interval saat komponen di-unmount
     return () => clearInterval(intervalId);
   }, []);
 
@@ -129,6 +126,22 @@ function Page() {
                 ← Kembali ke UMKM
               </button>
             </Link>
+          </div>
+
+          <div className="mt-10 w-full max-w-4xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-6 text-white">
+              Video Komoditas Ternak Puyuh
+            </h2>
+            <div className="rounded-xl shadow-xl overflow-hidden">
+              <video
+                controls
+                className="w-full h-full object-contain rounded-xl"
+                style={{ maxHeight: "90vh" }}
+              >
+                <source src="/fotoUmkm/videoternakpuyuh.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </div>

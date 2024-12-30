@@ -87,6 +87,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/spot/gadobangkong",
   },
+  {
+    id: 3,
+    title: "Curug Badak",
+    des: "-",
+    img: "/fotoSpot/curugBadak2.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "/spot/badak",
+  },
 ];
 
 export const testimonials = [
@@ -106,7 +114,7 @@ export const testimonials = [
     src: "/anggota/Ratu.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Alifia Tarijul Haq",
     designation:
       "Pendidikan Masyarakat - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
@@ -119,10 +127,10 @@ export const testimonials = [
     src: "/anggota/nana.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Erena Wafa",
     designation: "Gizi - Fakultas Ilmu Kesehatan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/erena.jpg",
   },
   {
     quote: "",
@@ -132,21 +140,21 @@ export const testimonials = [
     src: "/anggota/siti.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Saifi Maizan",
     designation:
       "Pendidikan Bahasa Indonesia - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "/anggota/saifi.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Kefin Maulana Firmansyah",
     designation:
       "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "/anggota/",
+    src: "/anggota/kefin2.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Hasna Amalia Heryanti",
     designation:
       "Pendidikan Matematika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
@@ -199,7 +207,7 @@ export const testimonials = [
     name: "Salsabila Azzahrah",
     designation:
       "Pendidikan Geografi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/salsabila.jpg",
   },
   {
     quote: "-",
