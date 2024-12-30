@@ -21,6 +21,13 @@ const Footer = () => {
           <a href="https://wa.me/0881022972152">
             <img src="/whatsapp.png" alt="WhatsApp" />
           </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=desawisatasantanamekar@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="/iconemail.png" alt="Email" />
+          </a>
         </div>
       </div>
 

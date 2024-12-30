@@ -165,7 +165,7 @@ export const testimonials = [
     name: "Muhammad Amar Muzaki",
     designation:
       "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/amar.jpg",
   },
   {
     quote: "-",

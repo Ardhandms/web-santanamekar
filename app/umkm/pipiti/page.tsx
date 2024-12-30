@@ -13,7 +13,6 @@ function Page() {
   const images = [
     { src: "/fotoUmkm/pipiti1.jpg", alt: "Komoditas Puyuh" },
     { src: "/fotoUmkm/pipiti2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
   ];
 
   // Fungsi untuk mengganti gambar

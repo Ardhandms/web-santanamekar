@@ -12,8 +12,7 @@ function Page() {
   // Daftar gambar
   const images = [
     { src: "/fotoUmkm/japilus1.jpg", alt: "Komoditas Puyuh" },
-    { src: "/puyuh2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/batuBlek3.jpg", alt: "KKN 45 Puyuh" },
+
     // Tambahkan gambar lainnya di sini
   ];
 
@@ -141,7 +140,7 @@ function Page() {
                 className="w-full h-full object-contain rounded-xl"
                 style={{ maxHeight: "90vh" }}
               >
-                <source src="/fotoUmkm/videopipiti1.mp4" type="video/mp4" />
+                <source src="/fotoUmkm/videojapilus.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

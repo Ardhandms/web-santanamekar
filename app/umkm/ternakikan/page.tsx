@@ -13,7 +13,7 @@ function Page() {
   const images = [
     { src: "/fotoUmkm/ikan1.jpg", alt: "Komoditas Puyuh" },
     { src: "/fotoUmkm/ikan2.jpg", alt: "KKN 45 Puyuh" },
-    { src: "/fotoSpot/curugBadak3.png", alt: "KKN 45 Puyuh" },
+
     // Tambahkan gambar lainnya di sini
   ];
 
