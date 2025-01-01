@@ -26,7 +26,6 @@ function Page() {
     setActiveImage((prev) => (prev - 1 + images.length) % images.length); // Loop ke gambar terakhir setelah gambar pertama
   };
 
-  // Mengatur interval untuk mengganti gambar setiap 3 detik
   useEffect(() => {
     const intervalId = setInterval(() => {
       nextImage();
@@ -62,11 +61,11 @@ function Page() {
                 <Image
                   src={image.src}
                   alt={image.alt}
-                  width={180} // Ukuran gambar yang lebih kecil
-                  height={180} // Ukuran gambar yang lebih kecil
+                  width={180}
+                  height={180}
                   className="rounded-xl shadow-xl mx-auto object-cover"
                   style={{
-                    objectFit: "cover", // Memastikan gambar ter-crop sesuai ukuran container
+                    objectFit: "cover",
                   }}
                 />
               </div>
@@ -105,26 +104,28 @@ function Page() {
 
         <div className="py-6 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
-            berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh
-            UMKM lokal desa ini dibuat dengan bahan-bahan alami tanpa campuran
-            bahan kimia, sehingga menghasilkan rasa yang autentik dan khas.
+            Curug Gadobangkong adalah salah satu destinasi wisata alam
+            tersembunyi di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini
+            menawarkan pesona yang memukau dengan aliran air yang deras dan
+            segar, jatuh di tengah bebatuan besar yang alami. Dikelilingi oleh
+            hutan lebat dan pepohonan hijau, suasana di Curug Gadobangkong
+            memberikan ketenangan bagi siapa saja yang mengunjunginya,
+            menjadikannya tempat yang sempurna untuk beristirahat dari rutinitas
+            sehari-hari.
           </p>
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Proses pembuatan gula aren melibatkan beberapa tahapan mulai dari
-            penyadapan nira, pemasakan hingga menjadi gula cair atau gula cetak.
-            UMKM di desa ini tidak hanya berkomitmen terhadap kualitas produk,
-            tetapi juga mendukung pemberdayaan masyarakat lokal melalui
-            pelibatan langsung dalam proses produksi.
+            Selain keindahannya, Curug Gadobangkong juga menjadi daya tarik bagi
+            para pecinta petualangan karena lokasinya yang menantang dan penuh
+            kejutan. Jalur menuju curug ini memberikan pengalaman trekking yang
+            seru, melewati hamparan alam yang indah. Dengan pesona alam yang
+            autentik, Curug Gadobangkong tidak hanya menjadi kebanggaan warga
+            Desa Santanamekar, tetapi juga salah satu destinasi yang wajib
+            dikunjungi oleh wisatawan yang ingin menikmati keindahan alam
+            Tasikmalaya.
           </p>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Produk gula aren dari Desa Santanamekar telah dipasarkan ke berbagai
-            daerah, bahkan mulai merambah ke pasar nasional. Kelezatan dan
-            kualitasnya menjadikannya salah satu pilihan favorit konsumen yang
-            peduli terhadap produk alami dan sehat.
-          </p>
+
           <div className="mt-12 text-center">
-            <Link href="/ ">
+            <Link href="/">
               <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">
                 ← Kembali ke UMKM
               </button>

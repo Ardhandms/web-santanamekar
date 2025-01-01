@@ -8,6 +8,23 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div className="pb-20 pt-16 mb-2" id="hero">
+      <div className="absolute top-0 right-0 p-4 z-50 flex gap-2">
+        <Image
+          src="/logosantana.png"
+          width={80}
+          height={80}
+          className="w-12 h-auto sm:w-16 sm:h-auto"
+          alt="Logo Santana"
+        />
+        <Image
+          src="/logounsil.png"
+          width={80}
+          height={50}
+          className="w-12 h-auto sm:w-16 sm:h-auto"
+          alt="Logo Unsil"
+        />
+      </div>
+
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"

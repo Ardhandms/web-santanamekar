@@ -105,24 +105,24 @@ function Page() {
 
         <div className="py-6 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
-            berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh
-            UMKM lokal desa ini dibuat dengan bahan-bahan alami tanpa campuran
-            bahan kimia, sehingga menghasilkan rasa yang autentik dan khas.
+            Curug Batu Blek adalah salah satu destinasi wisata alam unggulan di
+            Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan
+            keindahan yang memukau dengan aliran air jernih yang mengalir di
+            antara bebatuan alami. Dikelilingi oleh pepohonan hijau yang asri,
+            suasana di Curug Batu Blek memberikan kedamaian dan kesejukan yang
+            sempurna bagi pengunjung yang ingin melepas penat dari kesibukan
+            sehari-hari.
           </p>
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Proses pembuatan gula aren melibatkan beberapa tahapan mulai dari
-            penyadapan nira, pemasakan hingga menjadi gula cair atau gula cetak.
-            UMKM di desa ini tidak hanya berkomitmen terhadap kualitas produk,
-            tetapi juga mendukung pemberdayaan masyarakat lokal melalui
-            pelibatan langsung dalam proses produksi.
+            Selain pesona alamnya, Curug Batu Blek juga menjadi tempat favorit
+            untuk kegiatan seperti berfoto, bersantai, dan menikmati piknik
+            bersama keluarga atau teman. Lokasinya yang mudah diakses membuat
+            curug ini semakin populer di kalangan wisatawan lokal maupun luar
+            daerah. Dengan potensi alam yang luar biasa, Curug Batu Blek tidak
+            hanya menjadi kebanggaan warga Desa Santanamekar, tetapi juga simbol
+            harmoni antara manusia dan alam.
           </p>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Produk gula aren dari Desa Santanamekar telah dipasarkan ke berbagai
-            daerah, bahkan mulai merambah ke pasar nasional. Kelezatan dan
-            kualitasnya menjadikannya salah satu pilihan favorit konsumen yang
-            peduli terhadap produk alami dan sehat.
-          </p>
+
           <div className="mt-12 text-center">
             <Link href="/ ">
               <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">

@@ -33,7 +33,7 @@ const Footer = () => {
 
       <div className="flex mt-5 md:flex-row flex-col justify-between md:gap-3 gap-6">
         <p className="md:text-base text-sm md:font-normal font-light mt-8">
-          Copyright © 2024 Desa Santanamekar
+          Copyright © 2024 Desa Santanamekar | KKN 45 UNSIL
         </p>
       </div>
     </footer>

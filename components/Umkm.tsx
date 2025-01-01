@@ -169,8 +169,9 @@ function Umkm() {
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300"
           >
-            Usaha di bidang perikanan air tawar seperti ikan mas yang
-            dibudidayakan untuk pemanfaatan telurnya.
+            Usaha di bidang perikanan air tawar seperti ikan mas, ikan nila, dan
+            sebagainya yang dibudidayakan untuk dijual bibit, anakan, dan
+            ikannya.
           </CardItem>
           <CardItem translateZ="100" className="w-full mt-4">
             <Image

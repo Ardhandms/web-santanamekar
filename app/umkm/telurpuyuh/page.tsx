@@ -102,24 +102,24 @@ function Page() {
 
         <div className="py-6 px-5 sm:px-20 max-w-[89vw] md:max-w-2xl lg:max-w-[60vw]">
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Desa Santanamekar dikenal sebagai salah satu penghasil gula aren
-            berkualitas tinggi di daerah ini. Gula aren yang diproduksi oleh
-            UMKM lokal desa ini dibuat dengan bahan-bahan alami tanpa campuran
-            bahan kimia, sehingga menghasilkan rasa yang autentik dan khas.
+            Desa Santanamekar, Kecamatan Cisayong, memiliki salah satu sektor
+            UMKM unggulan berupa budidaya puyuh untuk menghasilkan telur
+            berkualitas tinggi. Telur puyuh yang dihasilkan oleh para peternak
+            lokal dikenal memiliki cita rasa yang lezat dan kandungan gizi yang
+            baik, sehingga menjadi favorit masyarakat lokal maupun luar daerah.
+            Usaha ini tidak hanya menjadi mata pencaharian, tetapi juga
+            mengangkat potensi desa sebagai penghasil komoditas unggulan.
           </p>
           <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Proses pembuatan gula aren melibatkan beberapa tahapan mulai dari
-            penyadapan nira, pemasakan hingga menjadi gula cair atau gula cetak.
-            UMKM di desa ini tidak hanya berkomitmen terhadap kualitas produk,
-            tetapi juga mendukung pemberdayaan masyarakat lokal melalui
-            pelibatan langsung dalam proses produksi.
+            Dengan perawatan yang cermat dan pakan berkualitas, peternakan puyuh
+            di Desa Santanamekar berhasil mempertahankan produksi telur secara
+            konsisten. Selain dijual dalam bentuk mentah, telur puyuh ini juga
+            diolah menjadi berbagai produk makanan siap saji yang memberikan
+            nilai tambah bagi UMKM lokal. Komoditas ini menjadi salah satu roda
+            penggerak ekonomi desa, membuka peluang usaha baru, dan memperkuat
+            kesejahteraan masyarakat.
           </p>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-300 leading-relaxed mb-2">
-            Produk gula aren dari Desa Santanamekar telah dipasarkan ke berbagai
-            daerah, bahkan mulai merambah ke pasar nasional. Kelezatan dan
-            kualitasnya menjadikannya salah satu pilihan favorit konsumen yang
-            peduli terhadap produk alami dan sehat.
-          </p>
+
           <div className="mt-12 text-center">
             <Link href="/ ">
               <button className="px-6 py-3 bg-yellow-500 text-white font-semibold rounded-lg shadow-md hover:bg-yellow-600 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2">

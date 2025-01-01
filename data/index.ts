@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "Curug Batu Blek",
-    des: "-",
+    des: "Curug Batu Blek adalah salah satu destinasi wisata alam unggulan di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan keindahan yang memukau dengan aliran air jernih yang mengalir di antara bebatuan alami.",
     img: "/batuBlek.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/spot/batublek",
@@ -82,25 +82,16 @@ export const projects = [
   {
     id: 2,
     title: "Curug Gadobangkong",
-    des: "-",
+    des: "Curug Gadobangkong adalah salah satu destinasi wisata alam tersembunyi di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan pesona yang memukau dengan aliran air yang deras dan segar, jatuh di tengah bebatuan besar yang alami. ",
     img: "/gadoBangkong.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/spot/gadobangkong",
-  },
-  {
-    id: 3,
-    title: "Curug Badak",
-    des: "-",
-    img: "/fotoSpot/curugBadak2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/spot/badak",
   },
 ];
 
 export const testimonials = [
   {
-    quote: `Good Software, Like Wine, Takes Time 
-    <Joel Spolsky>`,
+    quote: "",
     name: "Ardhan Dimas Nuryadin",
     designation:
       "Developer Website Desa Santanamekar - Informatika - Fakultas Teknik - Universitas Siliwangi",
@@ -128,9 +119,23 @@ export const testimonials = [
   },
   {
     quote: "",
+    name: "Irfan Alif Rahman",
+    designation:
+      "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "",
+  },
+  {
+    quote: "",
     name: "Erena Wafa",
     designation: "Gizi - Fakultas Ilmu Kesehatan - Universitas Siliwangi",
     src: "/anggota/erena.jpg",
+  },
+  {
+    quote: "",
+    name: "Anggi Bagus Ferdian",
+    designation:
+      "Pendidikan Fisika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
+    src: "/anggota/anggi.jpg",
   },
   {
     quote: "",
@@ -161,70 +166,56 @@ export const testimonials = [
     src: "/anggota/hasna.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Muhammad Amar Muzaki",
     designation:
       "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "/anggota/amar.jpg",
   },
   {
-    quote: "-",
-    name: "Irfan Alif Rahman",
-    designation:
-      "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
-  },
-  {
-    quote: "-",
+    quote: "",
     name: "Isma Fauziah",
     designation:
       "Ekonomi Syariah - Fakultas Agama Islam - Universitas Siliwangi",
     src: "/anggota/isma.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Muhammad Nurrul Rahayu",
     designation:
       "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "",
   },
   {
-    quote: "-",
-    name: "Anggi",
-    designation:
-      "Pendidikan Fisika - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "/anggota/anggi.jpg",
-  },
-  {
-    quote: "-",
+    quote: "",
     name: "Yessy Sri Anzani",
     designation:
       "Ilmu Politik - Fakultas Ilmu Sosial dan Ilmu Politik - Universitas Siliwangi",
     src: "/anggota/yessy.png",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Salsabila Azzahrah",
     designation:
       "Pendidikan Geografi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "/anggota/salsabila.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Syifa",
     designation:
       "Pendidikan Ekonomi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Rahma",
     designation:
       "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "/anggota/rahma.jpg",
   },
   {
-    quote: "-",
+    quote: "",
     name: "Meilia Nur Azizah",
     designation: "Sistem Informasi - Fakultas Teknik - Universitas Siliwangi",
     src: "/anggota/meilia.jpg",
