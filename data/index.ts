@@ -119,10 +119,10 @@ export const testimonials = [
   },
   {
     quote: "",
-    name: "Irfan Alif Rahman",
+    name: "Irfan Arif Rahman",
     designation:
       "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/irfan2.jpg",
   },
   {
     quote: "",
@@ -149,7 +149,7 @@ export const testimonials = [
     name: "Saifi Maizan",
     designation:
       "Pendidikan Bahasa Indonesia - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "/anggota/saifi.jpg",
+    src: "/anggota/saifi2.jpg",
   },
   {
     quote: "",
@@ -177,14 +177,14 @@ export const testimonials = [
     name: "Isma Fauziah",
     designation:
       "Ekonomi Syariah - Fakultas Agama Islam - Universitas Siliwangi",
-    src: "/anggota/isma.jpg",
+    src: "/anggota/isma2.jpg",
   },
   {
     quote: "",
     name: "Muhammad Nurrul Rahayu",
     designation:
       "Pendidikan Jasmani - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/nurrul.jpg",
   },
   {
     quote: "",
@@ -209,7 +209,7 @@ export const testimonials = [
   },
   {
     quote: "",
-    name: "Rahma",
+    name: "Rahma Aulia Septiani",
     designation:
       "Pendidikan Sejarah - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
     src: "/anggota/rahma.jpg",
