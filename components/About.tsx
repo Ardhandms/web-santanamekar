@@ -24,10 +24,10 @@ const About = () => {
               dilalui dengan menggunakan moda transportasi motordan mobil.
             </p>
             <p className=" md:tracking-wider mb-1 text-sm md:text-lg lg:text-1xl">
-              Jumlah penduduk di Desa Santanamekar yaitu sebanyak 4415 jiwa.
-              Secaraadministrasi Desa Santanamekar terdiri dari 3 dusun yaitu
-              Dusun Citepus (4 RW & 11 RT), Dusun Leuwibodas (2 RW & 8 RT), dan
-              Dusun Cigaleuh (2 RW & 8RT) dengan total 8 RW dan 27 RT.
+              Jumlah penduduk di Desa Santanamekar yaitu sebanyak +-4415 jiwa.
+              Secara administrasi Desa Santanamekar terdiri dari 3 dusun yaitu
+              Dusun Citepus (2 RW & 11 RT), Dusun Leuwibodas (2 RW & 8 RT), dan
+              Dusun Cigaleuh (2 RW & 8 RT) dengan total 8 RW dan 27 RT.
             </p>
           </div>
         </div>

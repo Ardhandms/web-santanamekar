@@ -70,7 +70,7 @@ const Hero = () => {
             </a>
             <a href="#projects" className="w-full sm:w-auto">
               <MagicButton
-                title="Spot Lokasi"
+                title="Spot Wisata"
                 icon={<FaLocationArrow />}
                 position="right"
               />

@@ -6,7 +6,7 @@ function SpotDesa() {
   return (
     <div className="py-10" id="projects">
       <h1 className="heading">
-        Spot Lokasi {""}
+        Spot Wisata {""}
         <span className="text-yellow-500">Desa Santanamekar</span>
       </h1>
 
@@ -30,7 +30,7 @@ function SpotDesa() {
                 {title}
               </h1>
 
-              <p className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2">
+              <p className="lg:text-m lg:font-normal font-light text-sm line-clamp-2 text-gray-500">
                 {des}
               </p>
             </PinContainer>

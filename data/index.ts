@@ -202,10 +202,10 @@ export const testimonials = [
   },
   {
     quote: "",
-    name: "Syifa",
+    name: "Syifa Nurwindani",
     designation:
       "Pendidikan Ekonomi - Fakultas Keguruan dan Ilmu Pendidikan - Universitas Siliwangi",
-    src: "",
+    src: "/anggota/syifa.jpg",
   },
   {
     quote: "",
