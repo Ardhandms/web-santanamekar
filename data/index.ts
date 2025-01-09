@@ -74,7 +74,7 @@ export const projects = [
   {
     id: 1,
     title: "Curug Batu Blek",
-    des: "Curug Batu Blek adalah salah satu destinasi wisata alam unggulan di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan keindahan yang memukau dengan aliran air jernih yang mengalir di antara bebatuan alami.",
+    des: "(Klik Gambar!) - Curug Batu Blek adalah salah satu destinasi wisata alam unggulan di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan keindahan yang memukau dengan aliran air jernih yang mengalir di antara bebatuan alami.",
     img: "/batuBlek.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "/spot/batublek",
@@ -82,7 +82,7 @@ export const projects = [
   {
     id: 2,
     title: "Curug Gadobangkong",
-    des: "Curug Gadobangkong adalah salah satu destinasi wisata alam tersembunyi di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan pesona yang memukau dengan aliran air yang deras dan segar, jatuh di tengah bebatuan besar yang alami. ",
+    des: "(Klik Gambar!) - Curug Gadobangkong adalah salah satu destinasi wisata alam tersembunyi di Desa Santanamekar, Kecamatan Cisayong. Air terjun ini menawarkan pesona yang memukau dengan aliran air yang deras dan segar, jatuh di tengah bebatuan besar yang alami. ",
     img: "/gadoBangkong.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/spot/gadobangkong",
@@ -94,7 +94,7 @@ export const testimonials = [
     quote: "",
     name: "Ardhan Dimas Nuryadin",
     designation:
-      "Developer Website Desa Santanamekar - Informatika - Fakultas Teknik - Universitas Siliwangi",
+      "Developer Website - Informatika - Fakultas Teknik - Universitas Siliwangi",
     src: "/anggota/ardhan.jpg",
   },
   {
