@@ -41,6 +41,25 @@ function Umkm() {
       image: "/fotoUmkm/ikan3.png",
       link: "/umkm/ternakikan",
     },
+    {
+      title: "Cimpring Milenium",
+      description: "Produksi makanan ringan dengan nama merk Cimpring Milenium",
+      image: "/fotoUmkm/cimpring1.png",
+      link: "/umkm/cimpring",
+    },
+    {
+      title: "Widja Kriuk",
+      description: "Produksi makanan ringan dengan nama merk Widja Kriuk",
+      image: "/fotoUmkm/widja1.png",
+      link: "/umkm/widja",
+    },
+    {
+      title: "Rasunda (Rasa Sunda Snack)",
+      description:
+        "Produksi makanan ringan dengan nama merk Rasunda (Rasa Sunda Snack)",
+      image: "/fotoUmkm/rasunda1.png",
+      link: "/umkm/rasunda",
+    },
   ];
 
   // Fungsi untuk navigasi slider (next dan previous)
