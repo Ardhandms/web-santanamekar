@@ -143,7 +143,7 @@ function Page() {
                   className="w-full h-full object-contain rounded-xl"
                   style={{ maxHeight: "90vh" }}
                 >
-                  <source src="/fotoSpot/videobatublek.mp4" type="video/mp4" />
+                  <source src="/fotoSpot/videobatublek2.mp4" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
               </div>

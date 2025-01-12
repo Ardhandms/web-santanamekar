@@ -39,7 +39,8 @@ function Page() {
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="pb-20 pt-16 mb-24" id="gulaaren">
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-10">
-          Curug Badak <span className="text-yellow-500">Desa Santanamekar</span>
+          UMKM Ternak Ikan{" "}
+          <span className="text-yellow-500">Desa Santanamekar</span>
         </h1>
         <div className="relative w-full max-w-3xl mx-auto rounded-xl shadow-lg overflow-hidden flex items-center justify-center mt-8">
           {/* Slider Container */}
